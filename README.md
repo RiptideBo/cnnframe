@@ -24,7 +24,8 @@ a simple CNN framework built based on numpy.
 
 
 ### Layers
-check the layers in dir: /cnnframe/cnnframe/layers/*
+check the layers in dir: /cnnframe/cnnframe/layers/*  
+
 All layers imlement methods:
 - forward_propagation
 - backward_propagation
@@ -51,10 +52,12 @@ sure you know what it is
 - **softmax:**
 usually used for the last layer
 
-or add your function in /cnnframe/acfuns.py.
-oh!  The backward process.
+or add your function in /cnnframe/acfuns.py.  
+
+oh!  The backward process.  
+
 it means for now it is not quite  extremely easy to expand more functions
 
 
 ---  
-Stephen Lee, 2019,5,21
+Stephen Lee, 245885195@qq.com, 2019,5,21
