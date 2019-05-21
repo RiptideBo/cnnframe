@@ -3,7 +3,7 @@ A simple CNN framework built based on numpy.
 
 ---
 ## How to use
-Check /test/test_model.py for example  
+Check [Here](./test/test_model.py) for example  
 
 Easy to build a CNN or BP model the way like Keras
 
@@ -26,28 +26,25 @@ model.train(xdata2, ydata2, train_round=100,plot_loss=True)
 ```
 
 ---
-## Layers
-Check the layers in dir: /cnnframe/cnnframe/layers/*  
-
+## [Layers](./cnnframe/layers)
+  
 All layers imlement methods:
 - forward_propagation
 - backward_propagation
 
 #### The layers:
-- **Conv2D:**
+- [**Conv2D**](./cnnframe/layers/conv2d.py): 
 layer for convolution (kernel, stride ...)
 
-- **PoolingLayer:**
+- [**PoolingLayer**](/cnnframe/layers/conv2d.py): 
 layer for pooling
 
-- **Flatten:**
-layer for flattening
-connecting convolution layer and dense layer(common bp layer)
+- [**Flatten**](/cnnframe/layers/conv2d.py): layer for flattening, connecting convolution layer and dense layer(common bp layer)
 
-- **Dense:**
+- [**Dense**](./cnnframe/layers/dense.py):
 layer for common BP network
 ---
-## Activation Functions
+## [Activation Functions](./cnnframe/acfuns.py)
 - **sigmoid:**
 sigmoid function
 - **relu:**
@@ -62,6 +59,12 @@ oh!  The backward process.
 It means for now it is not quite  extremely easy to expand more functions.  
 
 Maybe update this some other days.
+
+---
+
+## Other test
+#### Convolution effect
+How would a input Imgae change after the convolution layers, example [here](./test/test_convlayer.py) (dependency: PIL, numpy)
 
 
 ---  
