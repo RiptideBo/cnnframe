@@ -44,7 +44,7 @@ def test_mnist():
 
     model.summary()
 
-    model.train(xdata2, ydata2, train_round=100)
+    model.train(xdata2, ydata2, train_round=100,plot_loss=True)
 
 
 if __name__ == '__main__':
